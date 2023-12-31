@@ -8,9 +8,9 @@ element.innerHTML='Sum is '+(Number(a)+Number (b))
         }
     </script>
     <body>
-        <input id='a' type="text" placeholder="First number"></input><br></br>
-        <input id="b" type="text" placeholder="First number"></input><br></br>
-        <button onclick="populateDiv()">Calculate Sum</button><br></br>
+        <input onInput="populateDiv()" id='a' type="text" placeholder="First number"></input><br></br>
+        <input onInput="populateDiv()" id="b" type="text" placeholder="First number"></input><br></br>
+
         <div id="Final Sum"></div>
     </body>
 </html>
